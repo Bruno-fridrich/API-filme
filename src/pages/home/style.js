@@ -52,3 +52,23 @@ export const Btn = styled.button`
     cursor: pointer;
     transition: all 250ms;
 `;
+
+export const GenreFilter = styled.select`
+    display: block;
+    margin: 0 0 2rem auto;
+    padding: 0.7rem 1rem; /* texto no padding original */
+    font-size: 1rem;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    color: #333;
+    outline: none;
+
+    &:hover {
+        background-color: #eaeaea;
+    }
+
+    &:focus {
+        border-color: #666;
+    }
+`;
